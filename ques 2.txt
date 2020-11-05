@@ -19,7 +19,8 @@ void cou(int ar[20],int money)
 int main()
 {
     int ar[]={1,2,5,10,20,50,200,500,2000};
-    int money=773;
+    int money;
+    cin>>money;
     cou(ar,money);
 
 
